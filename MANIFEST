@@ -21,5 +21,6 @@ META.yml
 README
 t/App-Test-DWG-LibreDWG-DXF/01-use.t
 t/App-Test-DWG-LibreDWG-DXF/02-version.t
+t/App-Test-DWG-LibreDWG-DXF/03-new.t
 xt/App-Test-DWG-LibreDWG-DXF/01-pod_coverage.t
 xt/App-Test-DWG-LibreDWG-DXF/02-pod.t
