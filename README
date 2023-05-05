@@ -1,0 +1,60 @@
+NAME
+    test-dwg-libredwg-dxf - Script to test DWG file by LibreDWG conversions
+    via DXF.
+
+SYNOPSIS
+     test-dwg-libredwg-dxf [-d test_dir] [-h] [-v level] [--version] dwg_file
+
+DESCRIPTION
+    This tool is used to test libredwg DXF conversions on DWG file.
+
+    The process is to convert DWG file to LibreDWG DXF representation, back
+    to DWG and again to DXF. After this create diff between two DXF
+    representations to output.
+
+ARGUMENTS
+    *       "-d test_dir"
+
+            Test directory. If doesn't exist, create dir in system tmp.
+
+    *       "-h"
+
+            Print help.
+
+    *       "-v level"
+
+            Verbosity level.
+
+            Default value is 0, max is 9.
+
+    *       "--version"
+
+            Print version of script.
+
+    *       "dwg_file"
+
+            AutoCAD DWG file to test.
+
+EXAMPLE
+     test-dwg-libredwg-dxf __FILE__.dwg
+
+SEE ALSO
+    test-dwg-libredwg-dwgread
+        Script to test DWG files by LibreDWG dwgread command.
+
+REPOSITORY
+    <https://github.com/michal-josef-spacek/App-Test-DWG-LibreDWG-DXF>
+
+AUTHOR
+    Michal Josef Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    © 2023 Michal Josef Špaček
+
+    BSD 2-Clause License
+
+VERSION
+    0.01
+
